@@ -1,0 +1,18 @@
+p{
+    color: rgb(6, 93, 93);
+    font-style: italic;
+    text-align: justify;
+    font-size: large;
+    height: 300px;
+    width: 300px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+div{
+    text-align: center;
+}
