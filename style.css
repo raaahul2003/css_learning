@@ -1,9 +1,7 @@
 p{
     color: rgb(6, 93, 93);
     font-style: italic;
-    text-align: justify;
     font-size: large;
-    height: 300px;
     width: 300px;
 }
 
@@ -13,6 +11,45 @@ img{
     border-radius: 50%;
 }
 
-div{
-    text-align: center;
+
+
+#head{
+    color: green;
+}
+
+.group{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* universal selector -> means style to whole body*/
+*{
+
+    font-weight: 1000;
+   
+}
+
+/* discendant selector */
+
+div p{
+    color: olivedrab;
+
+}
+
+/* child selector */
+
+div>h3{
+
+    color: rgb(8, 74, 125);
+}
+
+/* sibiling selector */
+
+h3~ol{
+
+}
+
+/* immediate sibling */
+
+h4+ul{
+    color: teal;
 }

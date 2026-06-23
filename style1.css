@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+h1{
+    border:  5px solid rgb(250, 222, 13);
+    padding: 10px 20px;
+    margin: 50px 20px;
+}
+
+label{
+
+    border:  5px dotted rgb(250, 222, 13);
+    padding: 10px 20px;
+    margin: 50px 20px;
+
+}
+

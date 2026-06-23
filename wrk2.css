@@ -1,0 +1,32 @@
+.col{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: teal;
+
+    /* for horizontal arranging */
+    float: left;
+
+
+}
+
+/* for image in background */
+
+#main{
+
+    background-image: url('https://images.pexels.com/photos/6308163/pexels-photo-6308163.jpeg');
+    height: 1000px;
+    background-size: cover;
+   
+}
+
+*{
+    margin: 0px;
+}
+
+h1{
+    padding-top: 400px;
+    text-align: center;
+    color: rgb(237, 152, 41);
+
+}
