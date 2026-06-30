@@ -1,0 +1,23 @@
+.col{
+    height: 350px;
+    width: 250px;
+    background-color: teal;
+    border: 2px solid black;
+    
+}
+
+.row{
+    background-color: black;
+    height: 400px;
+    display: flex;
+
+    /* to order in vertical */
+    align-items: center;
+
+    /* to order in horizontal */
+    justify-content: space-evenly;
+
+    flex-direction: column;
+
+
+}
