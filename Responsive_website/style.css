@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+    height: 30px;
+    position: fixed;
+    width: 99%;
+    top: 0;
+
+}
+#logo{
+    width: 40px;
+
+}
+header .menu-icon{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: none;
+    font-size: 20px;
+}
+
+header .close-icon{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: none;
+    font-size: 20px;
+}
+nav a{
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+ 
+h1{
+    text-align: center;
+    color: cadetblue;
+    margin: 20px 0px;
+    margin-top: 80px;
+}
+
+p{
+    padding: 20px 40px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col{
+    height: 250px;
+    width: 250px;
+}
+
+.col img{
+    width: 100%;
+    height: 100%;
+}
+
+#check{
+    display: none;
+}
+
+/*  device width details:
+
+    1. small device s - 480px
+    2. medium device m - 760px
+    3. large device l - 992px
+    4. extra large device - 1280px
+
+    */
+
+
+@media (max-width:760px) {
+    .col{
+        margin-top: 20px;
+    
+    }
+ }
+
+ @media (max-width:460px){
+    p{
+        font-size: 22px;
+    }
+    header .menu-icon{
+        display: flex ;
+    }
+    nav{
+        position: absolute;
+        top: 50px;
+        background-color: black;
+        width: 100%;
+        display: none;
+    }
+    nav a{
+        display: block;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    #check:checked~nav{
+        display: block;
+        margin: 0px;
+    }
+     #check:checked~label .menu-icon{
+        display: none;
+        
+    }
+    #check:checked~label .close-icon{
+        display: flex;
+        
+    }
+    
+    
+   
+ }
+

@@ -2,7 +2,6 @@
     margin: 1px;
 }
 
-
 img{
 
     height: 280px;
@@ -13,14 +12,13 @@ img{
 
 #row{
     display: grid;
-    grid-template-columns: 30% 14% 14% 14% 14% 14%;
-    
+    grid-template-columns: 30% 12.5% 12.5% 12.5% 12.5% 12.5%;
     
    
 }
 
 #img1{
-    height: 101.5vh; 
+    height: 100%; 
     width: 98%;
 }
 
@@ -29,7 +27,7 @@ img{
     position: absolute; 
     margin-left: 29.8%; 
     display: grid;
-    grid-template-columns: 20% 69.3% 20%;
+    grid-template-columns: 20% 69.6% 20%;
     top: 285px;
     
 }
