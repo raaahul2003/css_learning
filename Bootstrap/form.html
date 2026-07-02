@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- use of display grid use parent as row class
+     and then whole row as size 12 we can divide it by class col-4 col-4 col-4 for equal space  -->
+    <div class="row">
+
+    <div class="col-4"></div>
+    <div class=" my-5 bg-secondary rounded-3 p-3 col-4">
+        <h1 class="text-center text-light fw-bold">LOGIN FORM</h1>
+        <form action="">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+               <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                 <label for="floatingPassword">Password</label>
+            </div>
+            <div class="d-grid gap-2 mt-2">
+              <button class="btn btn-primary" type="button">Login</button>
+            </div>
+            
+        </form>
+    </div>
+    <div class="col-4"></div>
+    </div>
+
+
+</body>
+</html>
